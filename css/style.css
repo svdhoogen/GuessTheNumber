@@ -1,0 +1,53 @@
+body {
+    background-color: #f8f9fa;
+}
+
+body p, h1, h2, h3, h4, h5, h6, textarea, input, label{
+    font-family: verdana;
+}
+
+.clearDiv {
+    clear: both;
+}
+
+#inputNum {
+    width: 40px;
+}
+
+.btnFont {
+    font-size: 20px;
+}
+
+.font-stats {
+    font-size: 12px;
+}
+
+/*#region Contains colors for guessColor */
+    .text-5 {
+        color: rgb(0, 255, 0);
+    }
+
+    .text-20 {
+        color: rgb(75, 255, 0);
+    }
+
+    .text-50 {
+        color: rgb(150, 255, 0);
+    }
+
+    .text-100 {
+        color: rgb(255, 200, 0);
+    }
+
+    .text-250 {
+        color: rgb(255, 150, 0);
+    }
+
+    .text-500 {
+        color: rgb(255, 75, 0);
+    }
+
+    .text-501 {
+        color: rgb(255, 0, 0);
+    }
+/*#endregion */
