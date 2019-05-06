@@ -338,7 +338,7 @@ if (isset($_POST['btnStart']) && isset($_POST['numMax'])) {
 
                         // While there are rows left in the database, run through loop.
                         while($row = $result->fetch_assoc()) {
-                            echo "<h6 class=\"text-dark\">", $num,": <strong>", $row['scoreNum'], "</strong>, ", $row['scoreName'], "</h6>";
+                            echo "<h6 class=\"text-dark\" id=\"highscore", $num, "\">", $num,": <strong>", $row['scoreNum'], "</strong>, ", $row['scoreName'], "</h6>";
                             $num++; // Count upwards.
                         }
                     }
@@ -349,5 +349,6 @@ if (isset($_POST['btnStart']) && isset($_POST['numMax'])) {
 
         <?php include "inc/js-import.php" ?> <!-- Loads javascript related to bootstrap. -->
         <script type="text/javascript" src="js/main.js"></script> <!-- Javascript. -->
+        
     </body>
 </html>
